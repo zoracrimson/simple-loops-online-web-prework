@@ -76,6 +76,12 @@ Before going into the `for` example, it's important to explain what `1..40` does
 
 When the `for` keyword is executed, it sets `counter` equal to the first element of the range, which is 1. The first output of the `for` statement is `The current number is 1.`. It will keep going through the range until it reaches the last element, which is 40. What will be the output of the last element? `The current number is 40.`.
 
+## Instructions
+
+Code your solutions in `simple_looping.rb`. The first word of each method in that file corresponds to the loop construct that you should use. Happy coding!
+
+Be sure to run `ironboard` to run the tests for this lab.
+
 ## One Hint to Keep in mind...
 
 Look up what a `break` keyword does, and figure out how it will help you get one of your tests passing! You may be wondering, "Well, I'm not sure which loop to apply it to...". It's the loop construct that doesnt have a specific condition to evaluate.
