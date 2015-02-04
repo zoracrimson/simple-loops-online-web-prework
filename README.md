@@ -82,9 +82,9 @@ Code your solutions in `simple_looping.rb`. The first word of each method in tha
 
 Be sure to run `ironboard` to run the tests for this lab.
 
-## One Hint to Keep in mind...
+### One Hint to Keep in mind...
 
-Look up what a `break` keyword does, and figure out how it will help you get one of your tests passing! You may be wondering, "Well, I'm not sure which loop to apply it to...". It's the loop construct that doesnt have a specific condition to evaluate.
+Look up what a `break` keyword does, and figure out how it will help you get othe `loop` test passing!
 
 ## Resources
 - [Bastards Book](http://ruby.bastardsbook.com/) - [Loops](http://ruby.bastardsbook.com/chapters/loops/)
