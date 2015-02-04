@@ -1,6 +1,6 @@
 require_relative './spec_helper'
 
-describe 'Loops' do
+context 'Loops' do
   describe 'loop' do
     it 'prints out "Hello Ruby-007!" 7 times' do
       expect{ loop_iterator(7) }.to output(looping_string).to_stdout
