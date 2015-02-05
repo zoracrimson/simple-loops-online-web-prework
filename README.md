@@ -80,7 +80,28 @@ When the `for` keyword is executed, it sets `counter` equal to the first element
 
 Code your solutions in `simple_looping.rb`. The first word of each method in that file corresponds to the loop construct that you should use. Happy coding!
 
-Be sure to run `ironboard` to run the tests for this lab.
+Take a look at your `spec/simple_looping_spec.rb` file. You'll notice on line 4 that there is a `before(:each) do` statement. What is this? This is what's called a [`before` hook](https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks). What this is doing is taking the code that is inside of the `before` hook's block and executing it at the start of each test (denoted by a `it` keyword). For example,
+
+```ruby
+it "prints out some witty statement from the 1990's" do
+  @say_my_name = "Oh snap, Destiny's Child!"
+  expect(@say_my_name).to eq("Oh snap, Destiny's Child!")
+end
+```
+
+is the same as
+
+```ruby
+before(:each) do
+  @say_my_name = "Oh snap, Destiny's Child!"
+end
+
+it "prints out some witty statement from the 1990's" do
+  expect(@say_my_name).to eq("Oh snap, Destiny's Child!")
+end
+```
+
+Also, be sure to run `ironboard` to run the tests for this lab.
 
 ### One Hint to Keep in mind...
 
