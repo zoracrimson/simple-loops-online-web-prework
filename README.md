@@ -45,11 +45,11 @@ while iteration_counter < 20
 end
 ```
 
-As long as the condition `counter < 20` evaluates to true, the block will continue to execute. On each iteration, it will output `The current number is less than 20`, and it will increment the counter variable by 1. When counter is finally equal to 20, it will break out of the loop.
+As long as the condition `iteration_counter < 20` evaluates to true, the block will continue to execute. On each iteration, it will output `The current number is less than 20`, and it will increment the `iteration_counter` variable by 1. When counter is finally equal to 20, it will break out of the loop.
 
 ## Until
 
-`Until` is simply the inverse of a `while` loop. An `until` keyword will keep executing a block until a specific condition is `true`.
+`Until` is simply the inverse of a `while` loop. An `until` keyword will keep executing a block until a specific condition is true.
 
 ```ruby
 countdown_counter = 20
@@ -60,7 +60,7 @@ end
 puts "You're now out of time."
 ```
 
-The `countdown_counter` starts at 20, and when the `until` loop starts executing the block, it evaluates whether `countdown_counter == 0`. If it is `false`, then it will output `There is still time left!`, and decrement the coundown_counter by 1. When the statement `countdown_counter == 0` evaluates to`true`, it will then output `You're now out of time.`.
+The `countdown_counter` starts at 20, and when the `until` loop starts executing the block, it evaluates whether `countdown_counter == 0`. If it is false, then it will output `There is still time left!`, and decrement the coundown_counter by 1. When the statement `countdown_counter == 0` evaluates to true, it will then output `You're now out of time.`.
 
 ## For
 
