@@ -101,7 +101,7 @@ it "prints out some witty statement from the 1990's" do
 end
 ```
 
-Also, be sure to run `ironboard` to run the tests for this lab.
+Also, be sure to run `learn` to run the tests for this lab.
 
 ### One Hint to Keep in mind...
 
