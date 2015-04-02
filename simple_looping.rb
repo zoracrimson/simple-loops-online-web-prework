@@ -32,7 +32,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  for count in 1..7 do
+  for count in 1..number_of_times do
     puts "Hello Ruby-007!"
   end
 end
