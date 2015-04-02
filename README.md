@@ -19,7 +19,7 @@ loop do
 end
 ```
 
-This will output `I have found the Time Machine!` an infinite number of times in your Terminal. Use Command + C to break out of the loop in your terminal.
+This will output `I have found the Time Machine!` an infinite number of times in your Terminal. Use Control + C to break out of the loop in your terminal.
 
 ## Times
 
