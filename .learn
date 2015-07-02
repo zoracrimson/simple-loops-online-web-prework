@@ -1,10 +1,10 @@
 tags:
-  - intro
   - loop
   - times
   - while
   - until
   - for
+  - break
 languages:
   - ruby
 resources: 6
