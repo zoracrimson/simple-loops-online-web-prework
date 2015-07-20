@@ -1,12 +1,15 @@
+# Simple Loops
+
 ## Instructions
 
 1. Fork and clone this lab. Then, open it in sublime and run the test suite with the `learn` or `rspec` command. 
 2. This lab requires you to write a series of methods that use the different looping constructs we've covered in this unit. **Read the comments in `simple_looping.rb`.** This is the file where you'll be coding your solution. The comments will help you to solve the lab and get the tests passing. 
-3. Each method takes in an argument of an integer. If you call one of the methods with an argument of `4`, your method should loop and puts out a phrase `4` times. If you call the same method with an argument of `10`, your method should loop and puts out a phrase `10` times. 
+3. Each method takes in an argument of an integer. If you call one of the methods with an argument of `4`, your method should loop and `puts` out a phrase `4` times. If you call the same method with an argument of `10`, your method should loop and `puts` out that phrase `10` times. 
 3. As you move through the lab, think about the differences between the looping constructs you're utilizing. What are some advantages to using certain constructs? Disadvantages?
 
+##### RSpec — A Closer Look:
 
-**RSpec: A Closer Look:** Take a look at your `spec/simple_looping_spec.rb` file. You'll notice on line 4 that there is a `before(:each) do` statement. What is this? This is what's called a [`before` hook](https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks). What this is doing is taking the code that is inside of the `before` hook's block and executing it at the start of each test (denoted by a `it` keyword). For example,
+Take a look at your `spec/simple_looping_spec.rb` file. You'll notice on line 4 that there is a `before(:each) do` statement. What is this? This is what's called a [`before` hook](https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks). What this is doing is taking the code that is inside the `before` hook's block and executing it at the start of each test (denoted by the `it` keyword). For example, this:
 
 ```ruby
 it "prints out some witty statement from the 1990's" do
@@ -15,7 +18,7 @@ it "prints out some witty statement from the 1990's" do
 end
 ```
 
-is the same as
+can be accomplished by this:
 
 ```ruby
 before(:each) do
