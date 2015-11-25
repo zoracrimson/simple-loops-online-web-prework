@@ -6,25 +6,25 @@ describe 'Loops' do
   end
 
   describe 'loop' do
-    it "prints out %{Welcome to Flatiron School\'s Web Development Course!} 7 times" do
+    it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
       expect{ loop_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
 
   describe 'times' do
-    it "prints out %{Welcome to Flatiron School\'s Web Development Course!} 7 times" do
+    it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
       expect{ times_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
 
   describe 'while' do
-    it 'prints out %{Welcome to Flatiron School\'s Web Development Course!} 7 times' do
+    it 'prints out Welcome to Flatiron School\'s Web Development Course! 7 times' do
       expect{ while_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
 
   describe 'until' do
-    it "prints out %{Welcome to Flatiron School\'s Web Development Course!} 7 times" do
+    it "prints out Welcome to Flatiron School\'s Web Development Course! 7 times" do
       expect{ until_iterator(7) }.to output(@looping_string).to_stdout
     end
   end
