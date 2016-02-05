@@ -37,3 +37,5 @@ end
 - [Ruby Docs](http://www.ruby-doc.org/) - [While](http://www.ruby-doc.org/core-2.2.0/doc/syntax/control_expressions_rdoc.html#label-while+Loop)
 - [Ruby Docs](http://www.ruby-doc.org/) - [Until](http://www.ruby-doc.org/core-2.2.0/doc/syntax/control_expressions_rdoc.html#label-until+Loop)
 - [Ruby Docs](http://www.ruby-doc.org/) - [For](http://www.ruby-doc.org/core-2.2.0/doc/syntax/control_expressions_rdoc.html#label-for+Loop)
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/simple-loops' title='Simple Loops'>Simple Loops</a> on Learn.co and start learning to code for free.</p>
