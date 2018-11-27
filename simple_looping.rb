@@ -23,14 +23,12 @@ def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times = 0
     while number_of_times < 8
-    number_of_times =+ 1
     puts phrase
+    number_of_times =+ 1
   end
 end
 
 def until_iterator(number_of_times)
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0
 until counter == 7
